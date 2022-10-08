@@ -1,0 +1,221 @@
+* {
+  margin: 0; padding: 0;
+  font-family: minion-pro;
+}
+
+html {
+  background-color: black;
+}
+body{
+background-color: black;
+color: white;
+overflow-x: hidden;
+}
+
+.logo a{
+  color: black;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.logo {
+  margin-top: 5px;
+  height: 30px;
+  width: auto;
+}
+
+
+#cover {
+  background-color: white;
+  min-height: none;
+}
+
+#pride-alliance .podcast-container{
+  margin: auto;
+padding-top: 40px;
+padding-bottom: 40px;
+  width: 50%;
+}
+
+#pride-alliance{
+
+  min-height: 70vh;
+
+  background-color: #a4508b;
+background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
+
+}
+
+#pride-alliance p {
+  font-family: 'Noto Sans';
+}
+
+#pride-alliance .text {
+ width: 50%;
+ margin: auto;
+ padding-top: 40px;
+}
+
+
+
+#pride-alliance h1 {
+  font-family: 'Noto Sans';
+}
+
+#cover img{
+  width: 100%;
+  vertical-align: bottom !important;
+}
+
+#letterfromed{
+
+background-color: #353839;
+}
+
+#letterfromed .text{
+  padding-top: 10%;
+  width: 70%;
+  margin: auto;
+
+}
+
+#letterfromed p {
+  padding-bottom: 30px ;
+  font-size: 20px;
+  line-height: 30px;
+  font-family: 'Noto Sans' !important;
+  }
+
+  #letterfromed h1 {
+
+    font-family: 'franklin-gothic-urw-cond';
+    font-size: 80px;
+
+    letter-spacing: 4px;
+
+    line-height: 70px;
+
+    }
+
+    #letterfromed .byline {
+
+     font-weight: 1000;
+
+      }
+
+    #letterfromed .intro {
+        display: flex;
+
+        width: 100%;
+        margin-bottom: 30px;
+      }
+
+
+
+      #letterfromed img{
+        width: 60%;
+        padding-left: 3%;
+
+        object-fit: contain;
+
+      }
+
+
+#info a{
+color: #9d16ac;
+text-decoration: none;
+}
+
+#info a:hover{
+text-decoration:underline;
+}
+
+
+#info .text{
+width: 70%;
+margin: auto;
+font-family: 'minion-pro';
+}
+
+#info p {
+padding-bottom: 30px ;
+font-size: 20px;
+line-height: 30px;
+}
+
+
+#info .media-embed {
+margin-left: auto;
+margin-right: auto;
+width: 100%;
+
+}
+
+#info h1{
+padding-bottom: 30px;
+}
+
+#info .headline {
+font-size: 60px;
+line-height: 55px;
+padding-bottom: 10px;
+}
+
+#info .overline {
+font-family: 'franklin-gothic-urw';
+padding-bottom: 0%;
+padding-top: 10vh;
+
+}
+
+#info .caption {
+text-align: right;
+font-family: 'franklin-gothic-urw';
+font-size: 15px;
+}
+
+.section {
+min-height: 100vh;
+background-color: black;
+
+}
+
+@media only screen and (max-width: 980px) {
+
+  .absolute-bg {
+    position: relative;
+  }
+  .gallery-cell {
+    width: 100% !important; /* full width */
+  }
+
+  #info .headline {
+    font-size: 30px !important;
+  }
+
+  #letterfromed .intro {
+    flex-direction: column;
+  }
+
+  #letterfromed img{
+    padding-left: 0%;
+  }
+
+/* Cool font from Google Fonts! */
+@import url('https://fonts.googleapis.com/css?family=Raleway:900&display=swap');
+
+body {
+	margin: 0px;
+}
+
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
