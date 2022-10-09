@@ -3,13 +3,15 @@
   font-family: minion-pro;
   margin: 0px;
   padding: 0px;
-  border-color: #a4508b;
+  
 
 
 }
 
 html {
   background-color: black;
+  overflow-x: hidden;
+
 }
 body{
 background-color: black;
@@ -337,6 +339,7 @@ line-height: 15px;
 .section {
 min-height: 100vh;
 background-color: black;
+
 
 }
 
