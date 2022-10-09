@@ -1,6 +1,7 @@
 * {
   margin: 0; padding: 0;
   font-family: minion-pro;
+  border-color: red !important;
 }
 
 html {
@@ -197,23 +198,29 @@ width: 100%;
 
 .article-box img{
   width: 40%;
+  align-self: flex-start;
+  opacity: 50%;
 }
 
 .article-box{
   display: flex;
+  
 }
 
 .article-box-spacer{
   width: 50px;
 }
-
+.article-box-headline{
+  /* line-height: 15px; */
+  padding-bottom: 10px;
+}
 .interview-box{
   display: flex;
 }
 
-.interview-box img{
+/* .interview-box .img-container{
   width: 40%;
-}
+} */
 
 .info h1{
 padding-bottom: 30px;
@@ -281,6 +288,16 @@ background-color: black;
 }
 
 @media only screen and (max-width: 980px) {
+
+  .article-box{
+    flex-direction: column;
+  }
+
+  .article-box img{
+    width: 100%;
+    height: auto;
+  }
+  
 
   .absolute-bg {
     position: relative;
