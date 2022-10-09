@@ -22,9 +22,40 @@ overflow-x: hidden;
   margin-top: 5px;
   height: 30px;
   width: auto;
+  position: absolute;
+}
+.GlowColor{
+  color: #ffdd87;
+  text-shadow:1px 1px 10px #ffdd87;
+ 
 }
 
+#Tierra-y-memoria b{
+  text-shadow:1px 1px 10px #ffdd87;
+  color: #ffdd87;
+}
 
+#Tierra-y-memoria a{
+  color: #ffdd87;
+
+}
+
+#projectTitle{
+  padding-top: 5% ;
+  padding-bottom: 5% ;
+  text-align: center;
+}
+
+#gustavo-pic{
+  width: 100%;
+  text-align: center;
+}
+.yellow{
+  color: yellow;
+}
+.red{
+  color: red;
+}
 #cover {
   background-color: white;
   min-height: none;
@@ -69,7 +100,8 @@ background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
 
 #letterfromed{
 
-background-color: #353839;
+background-color: #C5BA8A;
+color: #343528;
 }
 
 #letterfromed .text{
@@ -119,61 +151,129 @@ background-color: #353839;
         object-fit: contain;
 
       }
+.basicdommedia{
+  width: 100%;
+}
 
 
-#info a{
-color: #9d16ac;
+#Tierra-y-memoria{
+  background-color: #002535;
+  /* background-image: linear-gradient(180deg, #78ddfa 0%, 	#93e3fb 74%); */
+}
+
+#gustavo-blanco{
+  background-color:  #014421;
+}
+
+.info a{
+color: yellow;
 text-decoration: none;
 }
 
-#info a:hover{
+.info a:hover{
 text-decoration:underline;
 }
 
 
-#info .text{
+.info .text{
 width: 70%;
 margin: auto;
 font-family: 'minion-pro';
 }
 
-#info p {
+.info p {
 padding-bottom: 30px ;
 font-size: 20px;
 line-height: 30px;
 }
 
 
-#info .media-embed {
+.info .media-embed {
 margin-left: auto;
 margin-right: auto;
 width: 100%;
 
 }
 
-#info h1{
+.article-box img{
+  width: 40%;
+}
+
+.article-box{
+  display: flex;
+}
+
+.article-box-spacer{
+  width: 50px;
+}
+
+.interview-box{
+  display: flex;
+}
+
+.interview-box img{
+  width: 40%;
+}
+
+.info h1{
 padding-bottom: 30px;
 }
 
-#info .headline {
+.info .headline {
 font-size: 60px;
 line-height: 55px;
 padding-bottom: 10px;
 }
 
-#info .overline {
+.info .overline {
 font-family: 'franklin-gothic-urw';
 padding-bottom: 0%;
 padding-top: 10vh;
 
 }
+.info .overline-box {
+  font-family: 'franklin-gothic-urw';
+  padding-bottom: 0%;
+  
+  }
 
-#info .caption {
+.article-box .headline {
+    font-size: 40px;
+    padding-bottom: 10px;
+    
+    }
+
+.info .caption {
 text-align: right;
 font-family: 'franklin-gothic-urw';
 font-size: 15px;
+line-height: 15px;
 }
 
+.info .caption-left {
+  text-align: left;
+}
+
+
+.interview-title{
+  font-family: 'franklin-gothic-urw' !important;
+}
+
+.interview-response{
+  text-align: right;
+
+}
+#photo-story .text{
+  font-family: 'franklin-gothic-urw' !important
+}
+
+#photo-story {
+  background-color: #C5BA8A;
+  color: #654321;
+}
+.vertical-photo{
+  width: 50%
+}
 .section {
 min-height: 100vh;
 background-color: black;
@@ -189,7 +289,7 @@ background-color: black;
     width: 100% !important; /* full width */
   }
 
-  #info .headline {
+  .info .headline {
     font-size: 30px !important;
   }
 
@@ -218,4 +318,5 @@ body {
     100% {
       background-position: 0% 50%;
     }
-  }
+}
+}
