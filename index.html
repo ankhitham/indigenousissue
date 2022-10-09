@@ -61,6 +61,7 @@
 
   <!-- reference to your CSS -->
   <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
   <!-- reference to your JavaScript -->
 
@@ -90,9 +91,9 @@
 <script src="https://unpkg.com/splitting/dist/splitting.js"></script>
 <script src="https://unpkg.com/scroll-out/dist/scroll-out.min.js"></script>
 
-<!-- JS for carousels -->
-<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
-<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+<link href="https://unpkg.com/aos@next/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
 
 </head>
 
@@ -108,19 +109,69 @@
     <div class="title"> -->
 
   </div>
+  <div class="info section" id="letterfromed" data-scroll-indicator-title="letter from the editors">
+    <a href="https://dailyprincetonian.com">
+      <p style="text-align:center">THE DAILY PRINCETONIAN</p>
+    </a>
+    <div class="text">
+      <!-- Yay, no errors, warnings, or alerts! -->
+      <div class="intro-box">
+        <div class="animate__animated animate__fadeInDown">
+          <p class="overline">SPECIAL ISSUE</p>
+          <h1 class="headline GlowColor" id="projectTitle">A Project for<br> Indigenous People's Day</h1>
+        </div>
+        <div class="img-wrapper animate__animated animate__fadeInDown">
+          <img class="basicdommedia"
+            src="https://snworksceo.imgix.net/pri/e8219f78-c011-48fa-a374-fd8cfd98cb63.sized-1000x1000.jpg?">
+          <p class="caption">
+            Manisha Khakoo / The Daily Princetonian</p>
+        </div>
+      </div>
+
+
+      <p>
+        <strong>To commemorate</strong> this Indigeous Peoples Day, The Daily Princetonian has worked to amplify the
+        voices and
+        experiences of Indiegenous peoples on our campus. This project could not possibly exhaust the stories of
+        Native peoples at Princeton, nor does it aim to. Instead it marks a re-commitment by the ‘Prince’ to welcome
+        Native and Indigenous Princetonians into our paper, on their own terms.
+      </p>
+      <p>
+        The opening words of this project are written in Osage; Graduate student Rodrigo Córdova Rosado’s essay is
+        grounded in a Native language that is undergoing revival. This project features profiles of Gustavo
+        Blanco-Quiroga ’25 and Jessica Lambert ’22, two Indigenous students who have worked to innovatively use
+        University resources to serve their own Native communities. And in a special podcast, the ‘Prince’ highlights
+        the history of Dr. Alfonso Ortiz, an anthropologist at Princeton in the 1970s whose study of his own community
+        — the Ohkay Owingeh Pueblo — and staunch advocacy for Indigenous scholarship continues to have effect.
+      </p>
+      <p>
+        Through powerful opinion essays that grapple with the legacy of Princeton-affiliated Rev. Sheldon Jackson and
+        exploitative tourism to Hawai’i, a photo essay featuring perspectives of members of Natives at Princeton, and
+        interviews with Native scholars, artists, activists, and community leaders, we hope to spark conversations
+        that go far beyond the confines of this brief web project.
+      </p>
+      <p>
+        We hope that this effort may be one of many: Each story we are honored to feature here may lay the groundwork
+        for another yet to be told.
+      </p>
+      <p>
+        <em>Marie-Rose Sheinerman is the Editor-in-Chief of the ‘Prince.’ She has endless gratitude and admiration for
+          the staffers and editors who made this issue possible. She can be reached at eic@dailyprincetonian.com.</em>
+      </p>
+    </div>
+
+  </div>
   <div class="section info" id="Tierra-y-memoria" data-scroll-indicator-title="Self Essay">
     <div class="text">
-      <h1 class="headline GlowColor" id = "projectTitle">A Project for<br> Indigenous People's Day</h1>
-      <img class="basicdommedia"
-        src="https://snworksceo.imgix.net/pri/040876f9-63f3-4b3d-b7cf-a3a6c89c2cc2.sized-1000x1000.jpeg?">
-        <p class="overline">PROSPECT</p>
-        <h1 class="headline GlowColor">Tierra y memoria</h1>
-        <p>By Rodrigo Córdova Rosado</p>
-        <p>
-          <b class = "PowerColor">𐓰𐓘𐓲𐓘 𐓵𐓘𐓻𐓪𐓲𐓟</b>​​​​, I hear the crashing ocean in the rustling of leaves along the limbs of the ginkgo
-          north of Prospect House. I hear finches chirp as the morning dew moistens my shoes as I pass Lewis Library. And
-          I remember the humidity of my island and the smell of petrichor as the rain pelts my window in Forbes.&nbsp;
-        </p>
+      <p class="overline">PROSPECT</p>
+      <h1 class="headline GlowColor">Tierra y memoria</h1>
+      <p>By Rodrigo Córdova Rosado</p>
+      <p>
+        <b class="PowerColor">𐓰𐓘𐓲𐓘 𐓵𐓘𐓻𐓪𐓲𐓟</b>​​​​, I hear the crashing ocean in the rustling of leaves along
+        the limbs of the ginkgo
+        north of Prospect House. I hear finches chirp as the morning dew moistens my shoes as I pass Lewis Library. And
+        I remember the humidity of my island and the smell of petrichor as the rain pelts my window in Forbes.&nbsp;
+      </p>
       <p>
         Land and memory are a reflective combination. They have defined the Native experience on this land — now known
         as the United States — long before Jefferson inked his quill. The land we stand on was stolen from the Lenape —
@@ -130,11 +181,16 @@
         responsibility of the present to address the consequences of the past. It is to be aware of the exposed roots
         rotting for lack of care on the land and in our memory.
       </p>
+      <img class="basicdommedia animate__animated animate__fadeIn"
+        src="https://snworksceo.imgix.net/pri/040876f9-63f3-4b3d-b7cf-a3a6c89c2cc2.sized-1000x1000.jpeg?">
+      <p class="caption">Courtesy of Rodrigo Córdova Rosado</p>
       <p>
-        <b class = "PowerColor">I am a guest on this land.</b> I come from people who lived on Borinquén (now known as Puerto Rico) before the
+        <b class="PowerColor">I am a guest on this land.</b> I come from people who lived on Borinquén (now known as
+        Puerto Rico) before the
         historical record begins, from people who built cities along the Middle Waters (the Mississippi River Valley),
         from people who were uprooted to Indian territory in Oklahoma, and from people who sailed the Atlantic in search
-        of spices but arrived to find conquest.<b class = "PowerColor">I am 𐓷𐓘𐓻𐓘𐓻𐓟, Osage, and have arrived on this land made of soil
+        of spices but arrived to find conquest.<b class="PowerColor">I am 𐓷𐓘𐓻𐓘𐓻𐓟, Osage, and have arrived on this
+          land made of soil
           foreign to me.</b> In sharing this feeling with all of our communities, we must ask: How do we grow in this
         unfamiliar place? How do we tend the roots ripped from the earth in the place we seek to grow our own?
       </p>
@@ -145,8 +201,10 @@
         a new and strange place: communities have the power to build new homes. They are the mycelial network that ties
         us together. This is the ongoing project of revitalization: a reaction to the centuries of physical and cultural
         genocide that took place here. From Indigenous language courses to the engendering of Indigenous studies in
-        academia, <b class = "PowerColor">we are attempting to re-seed what boarding schools, forced assimilation, land allotments, and the
-        destruction of our environments took away from us.</b> And yet, we still do not have an Indigenous studies program
+        academia, <b class="PowerColor">we are attempting to re-seed what boarding schools, forced assimilation, land
+          allotments, and the
+          destruction of our environments took away from us.</b> And yet, we still do not have an Indigenous studies
+        program
         at Princeton, a dedicated space for Native peoples, nor do we discuss what the purpose of a land acknowledgment
         truly is. Like many things in Native communities, perhaps these will come with time. Unfortunately, time is
         running out.
@@ -156,8 +214,9 @@
         contact with my family for a week was “no te preocupes (not to worry), la casa está hecha de ladrillos, no de
         ramas o paja (the house is made of bricks, not sticks or straw.)” Last week we had the same conversation. Last
         week my family in Florida, land of the Seminole, Calusa, and Myaamia, was struck by such a hurricane as María.
-        Last year the forests around the world burned. This year our forests have burned. <b class = "GlowColor">Will there even be a forest
-          next year?</b> 
+        Last year the forests around the world burned. This year our forests have burned. <b class="GlowColor">Will
+          there even be a forest
+          next year?</b>
       </p>
       <p>
         Accelerating climate change poses an existential threat to land and memory, the core of who we are. Rising to
@@ -213,52 +272,9 @@
     </div>
 
   </div>
-  <div class="section" id="letterfromed" data-scroll-indicator-title="letter from the editors">
-    <!-- <a href="https://dailyprincetonian.com">
-      <img class="logo" alt="The Daily Princetonian logo"
-        src="https://dirgyzwl2hnqq.cloudfront.net/8ab5ccf6483af37484451354a9d9e4e3/dist/img/prince_logo_6-20-2020.svg" />
-    </a> -->
-    <div class="text">
-      <div class="intro">
-        <div class="intro-text">
-          <h1>LETTER FROM <br>THE EDITORS</h1>
 
-        </div>
-      </div>
-      <!-- Yay, no errors, warnings, or alerts! -->
-
-      <p>
-        To commemorate this Indigeous Peoples Day, The Daily Princetonian has worked to amplify the voices and
-        experiences of Indiegenous peoples on our campus. This project could not possibly exhaust the stories of
-        Native peoples at Princeton, nor does it aim to. Instead it marks a re-commitment by the ‘Prince’ to welcome
-        Native and Indigenous Princetonians into our paper, on their own terms.
-      </p>
-      <p>
-        The opening words of this project are written in Osage; Graduate student Rodrigo Córdova Rosado’s essay is
-        grounded in a Native language that is undergoing revival. This project features profiles of Gustavo
-        Blanco-Quiroga ’25 and Jessica Lambert ’22, two Indigenous students who have worked to innovatively use
-        University resources to serve their own Native communities. And in a special podcast, the ‘Prince’ highlights
-        the history of Dr. Alfonso Ortiz, an anthropologist at Princeton in the 1970s whose study of his own community
-        — the Ohkay Owingeh Pueblo — and staunch advocacy for Indigenous scholarship continues to have effect.
-      </p>
-      <p>
-        Through powerful opinion essays that grapple with the legacy of Princeton-affiliated Rev. Sheldon Jackson and
-        exploitative tourism to Hawai’i, a photo essay featuring perspectives of members of Natives at Princeton, and
-        interviews with Native scholars, artists, activists, and community leaders, we hope to spark conversations
-        that go far beyond the confines of this brief web project.
-      </p>
-      <p>
-        We hope that this effort may be one of many: Each story we are honored to feature here may lay the groundwork
-        for another yet to be told.
-      </p>
-      <p>
-        <em>Marie-Rose Sheinerman is the Editor-in-Chief of the ‘Prince.’ She has endless gratitude and admiration for
-          the staffers and editors who made this issue possible. She can be reached at eic@dailyprincetonian.com.</em>
-      </p>
-    </div>
-
-  </div>
-  <div class="section info" id="gustavo-blanco" data-scroll-indicator-title="That’s why I’m here at Princeton’: Gustavo Blanco-Quiroga ’25 serves home community">
+  <div class="section info" id="gustavo-blanco"
+    data-scroll-indicator-title="That’s why I’m here at Princeton’: Gustavo Blanco-Quiroga ’25 serves home community">
     <div class="text">
       <p class="overline red">FEATURES</p>
       <h1 class="headline">That’s why I’m here at Princeton’: Gustavo Blanco-Quiroga ’25 serves home community in
@@ -277,8 +293,10 @@
       </p>
       <img class="basicdommedia" id="gustavo-pic"
         src="https://snworksceo.imgix.net/pri/ebd7e4ca-01cf-4019-9692-5f8bb91cd738.sized-1000x1000.JPG?">
-      <p class="caption caption-left">Gustavo Blanco ’25 with participants and team leaders for the ChaCha Emprende Project. <br>
-       <em>Courtesy of Gustavo Blanco ’25.</em></p>
+      <p class="caption caption-left">Gustavo Blanco ’25 with participants and team leaders for the ChaCha Emprende
+        Project. <br>
+        <em>Courtesy of Gustavo Blanco ’25.</em>
+      </p>
       <p>
         “I am from the Aymara Indigenous community, which is one of 36 communities we have in Bolivia. It’s a beautiful
         community where we practice reciprocity and service,” he said in an interview with The Daily Princetonian.
@@ -428,7 +446,7 @@
 
   <div class="section info" id="photo-story" data-scroll-indicator-title="What does indigenous look like?">
     <div class="text">
-      <p class="overline">PHOTOS</p>
+      <p class="overline">PHOTO</p>
       <h1 class="headline">What does indigenous look like?</h1>
       <p>By Jun ___ and Manisha _____</p>
       <p>
@@ -443,7 +461,8 @@
       <div class="interview-box">
         <div class="interview-text">
           <h1 class="interview-title">
-            “This has been and will always be Indigenous land.”: Noah Collins&nbsp;
+            “This has been and will always be Indigenous land.” <br><br>
+            —Noah Collins
           </h1>
           <p>
             <strong>The Daily Princetonian:</strong> Can you tell me a little bit about yourself?&nbsp;
@@ -455,19 +474,20 @@
             Indigenous inclusion in science in general and the intersection between pharmaceuticals and genetics.
           </p>
         </div>
+        <div class="article-box-spacer"></div>
+        <div class="img-container">
+          <img
+            src="https://s3.amazonaws.com/snwceomedia/pri/f94c5934-9b16-491c-8a4b-7a30331dd2c2.sized-1000x1000.jpg" />
+          <p class="caption">Jun Choi / The Daily Princetonian</p>
+        </div>
 
-
-
-        <img src="https://s3.amazonaws.com/snwceomedia/pri/f94c5934-9b16-491c-8a4b-7a30331dd2c2.sized-1000x1000.jpg" />
 
       </div>
-      <p>
-        <br />
-      </p>
+
       <p>
         <strong>DP:</strong> What were some moments when you felt like your Native identity stood out the most?
       </p>
-      <p class="interview-response">
+      <p>
         <strong>NC:</strong> It’s always present to me that I am Indigenous. A lot of society and a lot of my
         interactions are framed in opposition to something that is not necessarily by my choice. Being Indigenous and
         going through society, you are constantly thought of as less or incapable. I think it is a blessing to be
@@ -483,11 +503,13 @@
         other Natives if we’re quiet when we should be supported.
       </p>
       <div class="interview-box">
-        <div class = "img-container">
-          <img src="https://s3.amazonaws.com/snwceomedia/pri/c2506c68-1ead-445c-b8ac-8e0988e798e6.sized-1000x1000.jpg" />
-          <p class = "caption">hello</p>
+        <div class="img-container">
+          <img
+            src="https://s3.amazonaws.com/snwceomedia/pri/c2506c68-1ead-445c-b8ac-8e0988e798e6.sized-1000x1000.jpg" />
+          <p class="caption">Jun Choi / The Daily Princetonian</p>
         </div>
-      
+        <div class="article-box-spacer"></div>
+
 
 
         <div class="interview-text">
@@ -515,33 +537,35 @@
 
 
       </div>
-      <p>
-        <br />
-      </p>
+      <h1 style="text-align: center;">
+        ***
+      </h1>
 
       <div class="interview-box">
         <div class="interview-text">
           <h1 class="interview-title">
-            “I believe that respecting the land and the Earth, as well as the people who live on it, is far more important
+            “I believe that respecting the land and the Earth, as well as the people who live on it, is far more
+            important
             than the scientific discovery of faraway stars.” <br><br> —Leilani Bender ’24
           </h1>
+          <p>
+            <strong>Daily Princetonian:</strong> Can you describe your indigenous identity?
+          </p>
+          <p>
+            <strong>Leilani Bender:</strong> I'm Native Hawaiian/Kanaka Maoli.
+          </p>
+
+
         </div>
 
+        <div class="img-container">
+          <img
+            src="https://s3.amazonaws.com/snwceomedia/pri/57fcc6b8-6fc7-4dc5-95f6-851840a6cc91.sized-1000x1000.jpg" />
+          <p class="caption">Jun Choi / The Daily Princetonian</p>
 
-        <img 
-        src="https://s3.amazonaws.com/snwceomedia/pri/d21a29c1-2fb6-4fdb-a408-7f5ea26f48c7.sized-1000x1000.jpg" />
+        </div>
 
       </div>
-
-      <p>
-        &nbsp;
-      </p>
-      <p>
-        <strong>Daily Princetonian:</strong> Can you describe your indigenous identity?
-      </p>
-      <p>
-        <strong>Leilani Bender:</strong> I'm Native Hawaiian/Kanaka Maoli.
-      </p>
       <p>
         <strong>DP:</strong> What's the significance of your red protest t-shirt?
       </p>
@@ -555,6 +579,7 @@
         respecting the land and the Earth, as well as the people who live on it, is far more important than the
         scientific discovery of faraway stars.
       </p>
+
       <p>
         <strong>DP:</strong> Do you face those same dilemmas in your studies or with possible future jobs given your
         major and your connection to your indigenous culture?
@@ -565,6 +590,11 @@
       <p>
         <strong>DP:</strong> How do you connect with your Hawaiian culture, both at home and at Princeton?
       </p>
+      <img class="media-embed" data-embedded-media="f05ddeaa-a621-4022-a3be-867f466a8e62"
+        data-uuid="f05ddeaa-a621-4022-a3be-867f466a8e62" data-link-to=""
+        src="https://s3.amazonaws.com/snwceomedia/pri/d21a29c1-2fb6-4fdb-a408-7f5ea26f48c7.sized-1000x1000.jpg"
+        data-width="767.93615722656" data-height="1156.5299072266" data-align="" />
+      <p class="caption">Jun Choi / The Daily Princetonian</p>
       <p>
         <strong>LB</strong>: Listening to Hawaiian music, playing the ukulele, and I am learning Hawaiian. The land and
         the natural world are also very important to me, and although Princeton's nature is nowhere near the same as
@@ -578,23 +608,27 @@
       <p>
         <strong>LB:</strong> Hawai'i is a sovereign nation — the United States illegally overthrew the Hawaiian
         government and annexed Hawai'i.&nbsp;
-      </p><img class="media-embed" data-embedded-media="f05ddeaa-a621-4022-a3be-867f466a8e62"
-        data-uuid="f05ddeaa-a621-4022-a3be-867f466a8e62" data-link-to=""
-        src="https://s3.amazonaws.com/snwceomedia/pri/57fcc6b8-6fc7-4dc5-95f6-851840a6cc91.sized-1000x1000.jpg"
-        data-width="767.93615722656" data-height="1156.5299072266" data-align="" />
-      <h3>
-        <br />
-      </h3>
-      <h3>
+      </p>
+
+      <h1 style="text-align: center;">
+        ***
+      </h1>
+
+      <h1 class="interview-title">
         “What does it mean to be this body within a system that doesn’t necessarily care about me or doesn’t necessarily
-        know about this part of me?”: Rodrigo Córdova-Rosado
-      </h3>
+        know about this part of me?” <br><br> —Rodrigo Córdova-Rosado
+      </h1>
+
+
+
+
+
       <h3>
         <br />
       </h3><img class="media-embed" data-embedded-media="eb3bea2d-8de4-4f8d-9e69-89beac33e40c"
         data-uuid="eb3bea2d-8de4-4f8d-9e69-89beac33e40c" data-link-to=""
-        src="https://s3.amazonaws.com/snwceomedia/pri/af24d2bf-c94a-4e5c-97d4-580945079421.sized-1000x1000.jpg"
-        data-width="0" data-height="0" data-align="" />
+        src="https://s3.amazonaws.com/snwceomedia/pri/af24d2bf-c94a-4e5c-97d4-580945079421.sized-1000x1000.jpg">
+      <p class="caption"> Manisha Khakoo / The Daily Princetonian </p>
       <h3>
         <br />
       </h3>
@@ -652,9 +686,7 @@
         data-uuid="8ee3e222-2a17-4c28-ba4d-e83d1a431a1c" data-link-to=""
         src="https://s3.amazonaws.com/snwceomedia/pri/65747593-2ddf-4a73-b784-8074daa35e00.sized-1000x1000.jpg"
         data-width="767.93615722656" data-height="511.82290649414" data-align="" />
-      <p>
-        <br />
-      </p>
+      <p class="caption"> Manisha Khakoo / The Daily Princetonian </p>
       <p>
         <em>Manisha Khakoo is a Contributing Photographer and prospective Evolutionary and Ecological Biology major from
           Woodside, CA. She can be reached at manisha.khakoo@princeton.edu. &nbsp;</em>
@@ -666,27 +698,183 @@
     </div>
   </div>
 
-  <div class="section" data-scroll-indicator-title="Jessica Lambert Profile" class="info">
+  <div class="section info" id = "jessica-lambert" data-scroll-indicator-title="Jessica Lambert Profile" class="info">
+    <div style="height:100px"></div>
     <div class="text">
-      <p class="overline">NEWS</p>
-      <h1 class="headline">Jessica Lambert '22 profile</h1>
-      <p>By Isa _____</p>
-      <em>Isa ___ is ___. Isa can be reached at</em> <a href="mailto:skagan@princeton.edu"
-        target="_blank"><em>___</em></a> <em>or on _____.</em>
+      <div class="interview-box">
+     
+      
+        <div class="img-container">
+          <img
+            src="https://snworksceo.imgix.net/pri/f08ab78c-1ec0-4aa4-8f84-2e51cfe1cded.sized-1000x1000.jpg?" />
+          <p class="caption">Julian Gottfried / The Daily Princetonian</p>
+        </div>
+        <div class="article-box-spacer"></div>
+        <div class="interview-text">
+          <p class="overline">NEWS</p>
+          <h1 class="headline"> Jessica Lambert ’22 reflects on indigenous studies, advocacy at Princeton</h1>
+          <p>By Isa _____</p>
+        </div>
+
+      </div>
+
+      <p>
+        For her <a
+          href="https://dataspace.princeton.edu/bitstream/88435/dsp01h989r638v/1/LAMBERT-JESSICA-THESIS.pdf">senior
+          thesis</a>, Jessica Lambert ’22 decided to write about the land and people where her “heart really lies.”
+      </p>
+      <p>
+        As a citizen of the Choctaw Nation, Lambert wanted to write about environmental contamination on native lands.
+        Without a clear path for pursuing this passion at the University, she sought out faculty members and mentors in
+        Indigenous studies at Princeton particularly focusing on environmental justice. In the end, the anthropology
+        major would go on to work with two advisors — one in her department and another in geosciences — and win the
+        2022 Center for Digital Humanities Senior Thesis Prize, using her humanities and science backgrounds to speak
+        with residents and conduct environmental sampling on Choctaw reservation lands.
+      </p>
+      <p>
+        “It was this really cross-disciplinary project that at its core was looking at how Choctaw human and
+        environmental health was being impacted by this pollution,” Lambert said in an interview with The Daily
+        Princetonian. “I was figuring out how to integrate natural science and its quantitative data with social science
+        and the qualitative understanding of what impact this facility was having on the environment.”
+      </p>
+      <p>
+        The town of McAlester, which Lambert focused on in her thesis, has been the site of a U.S. military facility
+        where old bombs are detonated and decommissioned. As a result, harmful chemicals and pollutants are released
+        into Choctaw air, water, and land — a key way in which settler colonialism and ongoing Native land theft
+        continue to materially impact the community.
+      </p>
+      <p>
+        After graduation, Lambert interned at the White House Council on Environmental Quality, focusing on
+        environmental justice in the Office of the Federal Chief Sustainability Officer. Currently, she is at The
+        Wilderness Society doing Government Relations, where she works on protecting and providing access to public
+        lands.
+      </p>
+      <p>
+        Lambert’s interest in Indigenous studies connects back to the beginning of her time as an anthropology
+        concentrator, with her junior paper. Her paper focused on young Native women in anthropology, like herself, as
+        well as early Indigenous anthropologists and the effects that American anthropology has had on Indigenous
+        populations.&nbsp;
+      </p>
+      <p>
+        “I wrote about this to really ground myself and better understand what discipline I’m coming from,” she said.
+      </p>
+      <p>
+        Outside of the classroom, Lambert led advocacy for Native students at Princeton. In co-leading the Princeton
+        Indigenous Advocacy Coalition, Lambert pushed for Indigenous studies to be expanded on campus, including through
+        a partnership with the Native American Alumni Association that secured a <a
+          href="https://www.dailyprincetonian.com/article/2020/12/princeton-establishes-professorship-of-indigenous-studies">$5
+          million grant</a> for an endowed chair of Indigenous studies.
+      </p>
+      <p>
+        “We did a ton of advocacy related to the gaps that Princeton had in terms of Indigenous studies, in terms of
+        institutional support for Native students, making sure that Princeton’s recruitment strategies for admission are
+        efficiently and actively targeting Native students to make sure that Native students know that Princeton is a
+        great place to come,” she said.
+      </p>
+      <p>
+        The Princeton Indigenous Advocacy Coalition was well received by the University administration, Lambert said.
+      </p>
+      <p>
+        She also helped develop the <a
+          href="https://indigenous.princeton.edu/#:~:text=Princeton's%20Native%20American%20and%20Indigenous,interests%20focus%20on%20Indigenous%20peoples.">Native
+          American and Indigenous studies Initiative at Princeton</a> (NAISIP) webpage, which presents information about
+        events, associated faculty, and courses connected to Indigenous studies for interested students. Associated
+        staff of the program belong to a wide array of departments.&nbsp;
+      </p>
+      <p>
+        “I helped develop the Indigenous studies website,” Lambert said. “One of the really core things that I
+        identified as a barrier to recognizing how much Indigenous sites infrastructure we already had going on at
+        Princeton was just that it wasn’t in one place.”
+      </p>
+      <p>
+        During the beginning of her time at Princeton, Indigenous studies were an independent venture. “Back then you
+        really had to seek out a professor who was doing it, and it was very much on your own,” she said.
+      </p>
+      <p>
+        While Indigenous studies is not currently a concentration or certificate at the University, Lambert said she
+        hopes that it will become a formal program at the University in coming years and that the groundwork for that
+        has been laid down during her time on campus.
+      </p>
+      <p>
+        A formalized program of study, in Lambert’s view, would encourage more students to explore Indigenous studies,
+        even through exposure to one introductory course.&nbsp;
+      </p>
+      <p>
+        “I think that helps, not only people who come in wanting to do Indigenous studies, but having a program there
+        makes it so much more visible for every student,” she said.
+      </p>
+      <p>
+        Specifically for Native students, the creation of a program involves “structures or supporting Native students
+        who are doing Indigenous studies,” Lambert said.
+      </p>
+      <p>
+        Throughout her time at Princeton, she also focused on community building in student groups. When she started in
+        2018, Natives at Princeton, a student organization providing Native students with support and community, “didn’t
+        have a lot of visibility and it was hard for people to find,” she said. When she was one of the co-presidents of
+        Natives at Princeton, the group obtained an affinity space in Green Hall for students to meet, work, and talk
+        with one another.
+      </p>
+      <p>
+        “Having a space where we can be ourselves has been just so life-changing in terms of how tight-knit and close
+        the Native community is on campus,” Lambert said.
+      </p>
+      <p>
+        Looking toward the future, Lambert’s biggest hope is that the progress she helped spark will only lead to more
+        advocacy and promises kept by the University.
+      </p>
+      <p>
+        “Hopefully, soon we will have a certificate or a concentration in Indigenous studies to help more formally
+        solidify and grow all the progress that’s happened over the last few years,” she said. “I think there’s a lot
+        more to come that I’m excited for.”
+      </p>
+      <p>
+        <em>Isabel Yip is an Assistant News Editor who typically covers University Affairs and student life. She can be
+          reached at isabelyip@princeton.edu or on Instagram at @isaayip.</em>
+      </p>
     </div>
   </div>
 
-  <div class="section" data-scroll-indicator-title="Colonizing Alaska" class="info">
+  <div class="section info" id = "colonizing-alaska" data-scroll-indicator-title="Colonizing Alaska" class="info">
     <div class="text">
       <p class="overline">OPINION</p>
       <h1 class="headline">Colonizing Alaska: Confronting Sheldon Jackson's legacy at Princeton</h1>
       <p>By Genrietta _____</p>
-      <em>Genrietta ___ is ___. Genrietta can be reached at</em> <a href="mailto:skagan@princeton.edu"
-        target="_blank"><em>___</em></a> <em>or on _____.</em>
+      <p>
+        <em>Content Warning: The following column references settler colonialism and violence against Alaska Natives and their cultures.&nbsp;</em>
+      </p>
+      <img class ="basicdommedia" src ="https://snworksceo.imgix.net/pri/d2f02cc8-d099-4da8-91ec-400a23f85ce2.sized-1000x1000.png?">
+      <p class = "caption">Katelyn Ryu / The Daily Princetonian</p>
+      <p>
+        Sitka, Alaska, a tiny, waterfront town situated on the west coast of the Alexander Archipelago, is over 2,800 miles away from Princeton, New Jersey. Yet despite the distance between them, Sitka and Princeton are inextricably linked through the actions of one man: Sheldon Jackson.&nbsp;
+      </p>
+      <p>
+        Although often <a href="http://www.alaskool.org/native_ed/articles/s_haycox/sheldon_jackson.htm" target="_self">memorialized</a> — in the process of writing this article, I found that most of the sources I consulted celebrated Jackson’s legacy <a href="http://www.alaskool.org/native_ed/articles/s_haycox/sheldon_jackson.htm"></a>— as the person who brought Western education and Protestantism to Alaska, Jackson was a key agent in the denial, destruction, and appropriation of Alaska Native cultures.&nbsp;
+      </p>
+      <p>
+        In <a href="http://www.alaskool.org/native_ed/articles/s_haycox/sheldon_jackson.htm" target="_self">1877</a>, Princeton Theological Seminary graduate and Presbyterian missionary <a href="http://www.alaskaweb.org/bios/jacksonsheldon.html">Sheldon Jackson</a> arrived in Sitka on his first mission to Alaska. By 1878, he had already founded the <a href="https://noehill.com/ak_sitka/nat1972000193.asp#:~:text=The%20core%20of%20the%20district,with%20a%20degree%20in%20theology.">Sitka Mission</a>, which sought to “assimilate” Alaska Native boys in the vicinity, who were primarily <a href="https://alaskapublic.org/2021/08/05/its-not-a-typo-why-we-are-using-lingit-instead-of-tlingit/">Lingít</a> and <a href="https://www.haidanation.ca/haida-nation/">Haida</a>. The school, which changed names many times and eventually became the <a href="https://www.sjvoices.org/sheldon-jackson-college.html">Sheldon Jackson College</a>, was the first American <a href="https://archives.alaska.gov/education/boarding.html">boarding school</a> for Alaska Natives where children were separated from their parents, punished for speaking their native languages, and denied access to their cultures. &nbsp;
+      </p>
+      <p>
+        In large part due to his efforts, Jackson was appointed the <a href="http://www.alaskool.org/native_ed/articles/s_haycox/sheldon_jackson.htm">first</a> General Agent of Education in Alaska, a position he held from 1885 to 1907. As General Agent of Education in Alaska, Jackson helped <a href="https://www.nlm.nih.gov/nativevoices/timeline/366.html">implement</a> a plan to <a href="http://www.ankn.uaf.edu/curriculum/Articles/History/TomHopkins/ANE/BriefHistory.html">divide</a> Alaska among various Christian religious denominations, so that missionaries representing different Christian faiths would have an assigned area in which to proselytize in the territory. Jackson’s efforts were pivotal in the establishment of American <a href="https://archives.alaska.gov/education/boarding.html">boarding schools</a> for Native children across Alaska.&nbsp;
+      </p>
+      <p>
+        Although Jackson was not a Princetonian himself, his legacy is tied to Princeton University. During his time in Alaska, Jackson collected nearly <a href="https://museums.alaska.gov/sheldon_jackson/sjgalleries.html">5,000</a> items belonging to Alaska Natives across the peninsula. While the majority of these items are housed at the <a href="https://museums.alaska.gov/sheldon_jackson/sjhome.html">Sheldon Jackson Museum</a> in Sitka, Jackson also <a href="https://artmuseum.princeton.edu/story/new-research-art-northwest-coast">sent</a> Alaska Native goods (in addition to Native goods from Washington and Arizona) to the <a href="https://artmuseum.princeton.edu/story/art-ancient-americas">Princeton Theological Seminary</a>. These goods eventually were transferred to the Trustees of what was then Princeton College. Today, they are ‘owned’ by the University’s Department of Geosciences and are currently on <a href="https://artmuseum.princeton.edu/story/new-research-art-northwest-coast">loan</a> to the Princeton University Art Museum. The majority of the material acquired by the University via Sheldon Jackson <a href="https://artmuseum.princeton.edu/story/new-research-art-northwest-coast" target="_self">remains</a> unknown or unidentified in its origin. &nbsp;
+      </p>
+      <p>
+        I, like many Princetonians, was unaware of the connection between Sitka and Princeton until this May, when I had the opportunity to visit Alaska through a trip sponsored by Princeton’s <a href="https://reees.princeton.edu/">Program in Russian, East European and Eurasian Studies</a>.&nbsp;
+      </p>
+      <p>
+        Before arriving in Alaska, I was prepared to <a href="https://reees.princeton.edu/news/2022/alaska-reflection-genrietta-churbanova">confront</a> Russia’s colonial legacy there. After all, one of the key objectives of the trip was to help students reach a deeper understanding about the history and lingering influence of the Russian Empire’s <a href="https://www.nps.gov/sitk/learn/historyculture/the-russians.htm">colonization</a> of Alaska, whose 100-odd year stint as a Russian territory often goes overlooked. I did not, however, expect to find that Princeton <a href="http://www.alaskool.org/native_ed/articles/s_haycox/sheldon_jackson.htm"></a>— the municipality and University alike <a href="http://www.alaskool.org/native_ed/articles/s_haycox/sheldon_jackson.htm"></a>— is associated with American colonization of the Alaskan peninsula.&nbsp;
+      </p>
+      <p>
+        As members of the Princeton community, it is time we collectively acknowledge that Sheldon Jackson’s legacy is tied to our university and that the Department of Geosciences holds objects he “collected.” Doing so is another step in scrutinizing the University’s connection to the systemic racism and settler colonialism that characterizes the past and the present of the United States. As for the items held by the Department of Geosciences, whether they should be returned to the descendants of those who made them or kept in scholastic institutions is not for me to say: only the people to whom they rightfully belong can speak on what their future should hold.&nbsp;
+      </p>
+      <p>
+        <em>Genrietta Churbanova is a junior from Little Rock, Ark in the Anthropology Department. She is Head Opinion Editor. Genrietta can be reached at</em> <a href="mailto:geaac@princeton.edu"><em>geaac@princeton.edu</em></a><em>.</em>
+      </p>
     </div>
   </div>
 
-  <div class="section" data-scroll-indicator-title="Utah Lithium Mines" class="info">
+  <!-- <div class="section" data-scroll-indicator-title="Utah Lithium Mines" class="info">
     <div class="text">
       <p class="overline">NEWS</p>
       <h1 class="headline">Utah Lithium Mines</h1>
@@ -697,20 +885,17 @@
       <em>Miriam ___ is ___. Miriam can be reached at</em> <a href="mailto:skagan@princeton.edu"
         target="_blank"><em>___</em></a> <em>or on _____.</em>
     </div>
-  </div>
+  </div> -->
 
 
-  <div class="section" id="pride-alliance" data-scroll-indicator-title="Podcast ">
+  <div class="section" id="pride-alliance" data-scroll-indicator-title="PODCAST | The Legacy of Professor Alfonso Ortiz">
 
     <div class="text">
       <div class="intro">
         <div class="intro-text">
-          <h1>PODCAST | An Interview with Pride Alliance</h1>
+          <h1>PODCAST | The Legacy of Professor Alfonso Ortiz</h1>
         </div>
-        <p>For the Daily Princetonian’s Queerness Issue, Associate Podcast Editor Eden Teshome sat down with the
-          leaders of Pride Alliance to discuss its history as well as advocacy on campus. This episode was written by
-          Kerrie Liang and Hope Perry, sound engineered and produced by Kerrie Liang, with additional production
-          assistance by Hope Perry and Eden Teshome.</p>
+        <p>On this special episode of Daybreak, we explore the impact and legacy of award-winning anthropologist Dr. Alfonso Ortiz, who served as an Associate Professor of Anthropology at Princeton in the 1970s. A member of the Ohkay Owingeh Pueblo, Dr. Ortiz studied and wrote about his own community, and staunchly advocate for Indigenous scholars during his time at Princeton and beyond. </p>
       </div>
     </div>
     <div class="podcast-container">
@@ -721,24 +906,74 @@
 
   </div>
 
-  <div class="section info" data-scroll-indicator-title="Explore The Full Issue" class="info">
+  <div class="section info" id = "explore" data-scroll-indicator-title="Explore The Full Issue" class="info">
     <div class="text">
       <p class="overline"></p>
       <h1 class="headline">Explore the full issue</h1>
-
-
-      <div class="article-box">
-        <img src="https://snworksceo.imgix.net/pri/e8219f78-c011-48fa-a374-fd8cfd98cb63.sized-1000x1000.jpg?">
-        <div class = "article-box-spacer"></div>
+      <div class="article-box" data-aos="fade-left">
+        <img src="https://snworksceo.imgix.net/pri/9942e160-1170-42ad-9353-a96d467a564f.sized-1000x1000.png?">
+        <div class="article-box-spacer"></div>
         <div class="article-box-text">
-          <p class="overline-box">OPINION</p>
-          <h1 class = "article-box-headline">A reminder that Hawaiʻi is not and will not be your vacation “paradise”</h1>
-          <p>By B;ah Blah</p>
+          <p class="overline-box">NEWS</p>
+          <h1 class="article-box-headline">Sitting down with Elizabeth Ellis, Indigenous history scholar</h1>
+          <p>By Simone Kirkevold</p>
         </div>
-
       </div>
 
-      <p>Insert Text boxes</p>
+      <div class="article-box" data-aos="fade-right">
+        <img src="https://snworksceo.imgix.net/pri/d32259ac-54db-456e-abc6-e4560226de37.sized-1000x1000.jpeg?">
+        <div class="article-box-spacer"></div>
+        <div class="article-box-text">
+          <p class="overline-box">NEWS</p>
+          <h1 class="article-box-headline">Princeton sells most holdings in Lithium Americas, Protect Thacker Pass argues not enough</h1>
+          <p>By </p>
+        </div>
+      </div>
+
+      <div class="article-box" data-aos="fade-left">
+
+        <div class="article-box-spacer"></div>
+        <div class="article-box-text">
+          <p class="overline-box">OPINION</p>
+          <h1 class="article-box-headline">A reminder that Hawaiʻi is not and will not be your vacation “paradise”</h1>
+          <p>By Gisele Bisch</p>
+        </div>
+        <img src="https://snworksceo.imgix.net/pri/ee3ff8ca-250a-481c-863e-2e5957f5cde2.sized-1000x1000.JPEG?">
+
+      </div>
+      <a href="">
+        <div class="article-box" data-aos="fade-right">
+          <img src="https://snworksceo.imgix.net/pri/b39908df-aa1f-47b4-974f-444d6cc9c534.sized-1000x1000.JPG?">
+          <div class="article-box-spacer"></div>
+          <div class="article-box-text">
+            <p class="overline-box">PROSPECT</p>
+            <h1 class="article-box-headline">"What is America? Who is America? Q&A with Art Museum Curator Mitra
+              Abbaspour"</h1>
+            <p>By Kerrie Liang</p>
+          </div>
+
+
+
+
+        </div>
+      </a>
+
+
+      <a href="">
+        <div class="article-box" data-aos="fade-left">
+          <div class="article-box-text">
+            <p class="overline-box">PROSPECT</p>
+            <h1 class="article-box-headline">Marianne Nicolson on Indigenous art, community, and visibility</h1>
+            <p>By Isabella Dail</p>
+          </div>
+          <div class="article-box-spacer"></div>
+          <img src="https://snworksceo.imgix.net/pri/6d18efdb-9707-413c-bff7-64bcbb5dd2b8.sized-1000x1000.jpg?">
+
+
+        </div>
+      </a>
+
+
     </div>
   </div>
   <div class="section info" data-scroll-indicator-title="Credits" class="info">
@@ -754,6 +989,9 @@
     ScrollOut({
       targets: '[data-splitting]'
     });</script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 
 

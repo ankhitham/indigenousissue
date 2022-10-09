@@ -1,7 +1,7 @@
 * {
   margin: 0; padding: 0;
   font-family: minion-pro;
-  border-color: red !important;
+
 }
 
 html {
@@ -42,9 +42,10 @@ overflow-x: hidden;
 }
 
 #projectTitle{
-  padding-top: 5% ;
+  /* padding-top: 5% ; */
   padding-bottom: 5% ;
-  text-align: center;
+  text-align: left;
+  /* font-family: 'franklin-gothic-urw'; */
 }
 
 #gustavo-pic{
@@ -101,57 +102,21 @@ background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
 
 #letterfromed{
 
-background-color: #C5BA8A;
-color: #343528;
+  background-color: 
+  #530C0C;
+color: white;
 }
 
 #letterfromed .text{
-  padding-top: 10%;
+  padding-top: 2%;
   width: 70%;
   margin: auto;
 
 }
 
-#letterfromed p {
-  padding-bottom: 30px ;
-  font-size: 20px;
-  line-height: 30px;
-  font-family: 'Noto Sans' !important;
-  }
 
-  #letterfromed h1 {
+    
 
-    font-family: 'franklin-gothic-urw-cond';
-    font-size: 80px;
-
-    letter-spacing: 4px;
-
-    line-height: 70px;
-
-    }
-
-    #letterfromed .byline {
-
-     font-weight: 1000;
-
-      }
-
-    #letterfromed .intro {
-        display: flex;
-
-        width: 100%;
-        margin-bottom: 30px;
-      }
-
-
-
-      #letterfromed img{
-        width: 60%;
-        padding-left: 3%;
-
-        object-fit: contain;
-
-      }
 .basicdommedia{
   width: 100%;
 }
@@ -166,10 +131,6 @@ color: #343528;
   background-color:  #014421;
 }
 
-.info a{
-color: yellow;
-text-decoration: none;
-}
 
 .info a:hover{
 text-decoration:underline;
@@ -196,17 +157,74 @@ width: 100%;
 
 }
 
+/* #Tierra-y-memoria .headline{
+  font-family: 'franklin-gothic-urw';
+
+} */
+
 .article-box img{
   width: 40%;
   align-self: flex-start;
-  opacity: 50%;
+
+}
+
+.info.article-box a{
+  color: white !important;
+}
+
+.info a{
+  color: white;
+  text-decoration: none;
+}
+
+#gustavo-blanco a{
+  color: yellow;
+
 }
 
 .article-box{
   display: flex;
+  padding: 7% 5% 7% 5%;
+  background-color: #001209;
+  margin-top: 15%;
+  margin-bottom: 15%;
+  border-radius: 9px;
+  opacity: 30%;
   
 }
+#colonizing-alaska{
+  background-color: #e9cfc1;
+  color: #002535;
+}
 
+#colonizing-alaska a{
+  color: darkgray;
+}
+
+#jessica-lambert{
+
+  background-image: linear-gradient(180deg, #11cfec 0%, #C9F6FF 74%);
+  color: #451926;
+}
+
+#explore {
+  background-color: #014421;
+  /* background-image: linear-gradient(180deg, #014421 0%, #6A2715 74%); */
+  color: white;
+}
+
+
+#explore .headline{
+  color: white;
+  text-shadow: 6px -2px rgba(193, 110, 37, 0.6);
+}
+
+#explore a{
+  color: white;
+}
+#jessica-lambert a{
+  color: maroon;
+}
 .article-box-spacer{
   width: 50px;
 }
@@ -218,10 +236,17 @@ width: 100%;
   display: flex;
 }
 
-/* .interview-box .img-container{
+.interview-box .img-container{
   width: 40%;
-} */
+}
 
+.interview-box .interview-text{
+  width: 60%;
+}
+
+.interview-box img{
+  width: 100%;
+}
 .info h1{
 padding-bottom: 30px;
 }
@@ -237,6 +262,20 @@ font-family: 'franklin-gothic-urw';
 padding-bottom: 0%;
 padding-top: 10vh;
 
+}
+
+.intro-box{
+  display: flex;
+}
+
+.intro-box .img-wrapper{
+  width: 70%;
+}
+.intro-box img{
+  width: 100%;
+}
+#letterfromed .overline{
+  padding-top: 0vh !important;
 }
 .info .overline-box {
   font-family: 'franklin-gothic-urw';
@@ -267,10 +306,20 @@ line-height: 15px;
 }
 
 .interview-response{
-  text-align: right;
+
+  color: maroon;
 
 }
-#photo-story .text{
+
+#photo-story a{
+  color: maroon;
+  font-family: 'franklin-gothic-urw' !important
+}
+#photo-story p{
+  font-family: 'franklin-gothic-urw' !important
+}
+
+#photo-story strong{
   font-family: 'franklin-gothic-urw' !important
 }
 
@@ -296,6 +345,7 @@ background-color: black;
   .article-box img{
     width: 100%;
     height: auto;
+    order: 5;
   }
   
 
@@ -310,13 +360,32 @@ background-color: black;
     font-size: 30px !important;
   }
 
-  #letterfromed .intro {
+  .intro-box{
     flex-direction: column;
   }
-
-  #letterfromed img{
-    padding-left: 0%;
+  
+  .intro-box .img-wrapper{
+    width: 100%;
   }
+  .intro-box img{
+    width: 100%;
+  }
+  .interview-box{
+flex-direction: column;
+  }
+  
+  .interview-box .img-container{
+    width: 100%;
+  }
+  
+  .interview-box .interview-text{
+    width: 100%;
+  }
+  
+
+
+
+
 
 /* Cool font from Google Fonts! */
 @import url('https://fonts.googleapis.com/css?family=Raleway:900&display=swap');
