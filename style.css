@@ -69,37 +69,31 @@ overflow-x: hidden;
   min-height: none;
 }
 
-#pride-alliance .podcast-container{
+#podcast .podcast-container{
   margin: auto;
 padding-top: 40px;
 padding-bottom: 40px;
   width: 50%;
 }
 
-#pride-alliance{
+#podcast{
 
   min-height: 70vh;
 
   background-color: #a4508b;
-background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
+background-image: linear-gradient(326deg, #2A0001 0%, #800000 74%);
 
 }
 
-#pride-alliance p {
-  font-family: 'Noto Sans';
-}
 
-#pride-alliance .text {
+
+#podcast .text {
  width: 50%;
  margin: auto;
  padding-top: 40px;
 }
 
 
-
-#pride-alliance h1 {
-  font-family: 'Noto Sans';
-}
 
 #cover img{
   width: 100%;
@@ -109,7 +103,7 @@ background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
 #letterfromed{
 
   background-color: 
-  #530C0C;
+  #2A0001;
 color: white;
 }
 
@@ -173,7 +167,12 @@ width: 100%;
   align-self: flex-start;
 
 }
+#credits{
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
 
+}
 .info.article-box a{
   color: white !important;
 }
@@ -207,9 +206,28 @@ width: 100%;
   color: darkgray;
 }
 
+.intro-box{
+  text-align: center;
+  margin: auto;
+  min-height: 50vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-intro{
+  /* display: flex; */
+  
+}
+
+.marie-sig{
+  text-align: right;
+  line-height: 1px;
+}
 #jessica-lambert{
 
-  background-image: linear-gradient(180deg, #11cfec 0%, #C9F6FF 74%);
+  background-image: linear-gradient(180deg, #ADD8E6 0%, #F0F8FF 74%);
   color: #451926;
 }
 
@@ -376,6 +394,10 @@ background-color: black;
   }
   .intro-box img{
     width: 100%;
+  }
+
+  .info .text{
+    width: 85%;
   }
   .interview-box{
 flex-direction: column;
